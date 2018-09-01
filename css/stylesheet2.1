@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*--------global------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline:0;
+    
+}
+
+html{
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: #5425b6;
+}
+
+/*------nav------*/
+
+nav{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 20px 40px;
+    overflow: hidden;
+    vertical-align: baseline;
+    margin-bottom: 50px;
+}
+
+nav a.logo{
+    display: inline-block;
+/*    padding: 10px 20px;*/
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #444;
+}
+
+nav ul{
+    list-style: none;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #555;
+    padding: 10px 30px;
+    text-align: center;
+    
+}
+
+nav ul li a:hover{
+    font-weight:700;
+    color: #5425b6;
+    text-decoration: underline;
+    text-decoration-color: #5425b6;
+    
+}
+
+/*
+#wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}*/
+div.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+/*------Header------*/
+header{
+    width: 100%;
+    height: 600px;
+/*    background-color: #f4f4f4;*/
+    padding: 50px 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+header h1{
+    width: 35%;
+    font-size: 2.5em;
+    float: left;
+    
+}
+
+header p{
+    width: 45%;
+    float: right;
+}
+
+header div.hero{
+    width: 1920px;
+    height: 400px;
+    position: absolute;
+    top: 250px;
+    background: url(../Optimised/luca-micheli-422053-unsplash.jpg) no-repeat bottom center fixed /cover;
+    
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+
+/*--------Pocket-Friendly------*/
+
+section.category{
+    margin-top: 35px;
+    background-color: #f4f4f4;
+    padding: 70px 40px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+section.category div.content{
+    float:left;
+    width: 40%;
+
+}
+
+section.category div.content h1{
+    font-size: 1.8em;
+    margin:0 0 30px 0;
+}
+
+section.category div.content a{
+    display: inline-block;
+    border: 1px solid #5425b6;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #5425b6;
+    transition: background 0.3s ease-in;
+}
+
+section.category div.content a:hover{
+    background-color: #5425b6;
+    color: #fff;
+}
+
+section.category div.card{
+/*    background-color: #fff;*/
+/*    float: left;*/
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+section.category div.card div.card-container{
+    float: left;
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    margin: 0 30 0 10px;
+        
+}
+
+section.category div.card div.card-container img{
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    width: 250px;
+    height: 350px;
+}
+
+section.category div.card div.card-container h3{
+    font-size: 1.4em;
+    margin-bottom: 10px; 
+}
+
+section.category div.card div.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #5425b6;
+    margin-bottom: 20px;
+}
+
+section.category div.card p{
+    display: inline-block;
+    text-align: center;
+    font-size: .8em;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #555;
+}
+
+section.category div.card p.price{
+    color: #5425b6;
+/*    font-size:*/
+}
+
+/*-----Elite-----*/
+
+section.category2{
+    margin-top: 35px;
+/*    background-color: #f4f4f4;*/
+    padding: 70px 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+section.category2 div.card-flip{
+    float: left;
+    text-align: center;
+}
+
+section.category2 div.card-flip div.card-container{
+    
+    float: left;
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    margin: 0 30 0 10px;
+}
+
+section.category2 div.card-flip div.card-container img{
+    margin: 0 0 10px 0;
+    border-radius: 6px;
+    width: 250px;
+    height: 350px;
+}
+
+section.category2 div.card-flip div.card-container h3{
+    font-size: 1.4em;
+    margin-bottom: 10px; 
+}
+
+section.category2 div.card-flip div.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #5425b6;
+    margin-bottom: 20px;
+}
+
+section.category2 div.card-flip p{
+    display: inline-block;
+    text-align: center;
+    font-size: .8em;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #555;
+}
+
+section.category2 div.card-flip p.price{
+    color: #5425b6;
+}
+
+section.category2 div.content-flip{
+    float: right;
+    text-align: left;
+    max-width: 35%;
+    margin-left: 150px
+}
+
+section.category2 div.content-flip h1{
+    font-size: 1.8em;
+    margin:0 0 30px 0;
+}
+
+section.category2 div.content-flip a{
+    display: inline-block;
+    border: 1px solid #5425b6;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #5425b6;
+    transition: background 0.3s ease-in;
+}
+
+section.category2 div.content-flip a:hover{
+    background-color: #5425b6;
+    color: #fff;
+}
+
+/*-----Resort-----*/
+section.resort{
+/*    background-color: #f4f4f4;*/
+    width: 100%;
+    padding: 70px 40px;
+    margin-top: 35px; 
+    overflow: hidden;
+}
+
+
+section.resort div.content{
+    float:left;
+    
+
+}
+
+section.resort div.content h1{
+    font-size: 1.8em;
+    margin:0 0 30px 0;
+}
+
+section.resort div.content a{
+    display: inline-block;
+    border: 1px solid #5425b6;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: #5425b6;
+    transition: background 0.3s ease-in;
+}
+
+section.resort div.content a:hover{
+    background-color: #5425b6;
+    color: #fff;
+}
+section.resort div.card-container{
+    float: right;
+/*    width: 60%;*/
+}
+
+section.resort div.card-container div.card-resort{
+    float: left;
+    background-color: #fff;
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    margin: 0 30 0 10px;
+    text-align: center;
+}
+
+
+
+section.resort div.card-container div.card-resort h3{
+    font-size: 1.4em;
+    margin-bottom: 20px; 
+}
+
+section.resort div.card-container div.card-resort img{
+    border-radius: 6px;
+    margin: 0 0 20px 0;
+}
+
+section.resort div.card-container div.card-resort div.divider{
+    height: 2px;
+    width: 100%;
+    background-color: #5425b6;
+    margin-bottom: 20px;
+}
+
+section.resort div.card-container div.card-resort p{
+    display: inline-block;
+/*    text-align: center;*/
+    font-size: .8em;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #555;
+}
+
+section.resort div.card-container div.card-resort p.days{
+    float: left;
+}
+
+section.resort div.card-container div.card-resort p.price{
+    float: right;
+}
+
+/*---------------Footer------------*/
+
+footer{
+    width: 100%;
+    background-color: #5425b6;
+    padding: 20px 40px;
+    overflow: hidden;
+}
+
+footer div.logo{
+    float: left;
+}
+
+footer div.logo a{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+footer div.social-contact{
+    float: right;
+}
+
+footer div.social-contact ul{
+    list-style: none;
+}
+
+footer div.social-contact ul li{
+    float: left;
+    padding: 10px 10px;
+    margin-left: 20px;
+}
+
+footer div.social-contact ul li a{
+    color: #fff;
+}
+
+@media (max-width: 1023px){
+    html{
+        text-align: center;
+    }
+    
+    section.category{
+    margin-top: 35px;
+    background-color: #f4f4f4;
+    padding: 70px 40px;
+    width: 100%;
+
+}
+
+section.category div.content{
+    width: 100%;
+    }
+    
+    section.category div.card{
+/*    background-color: #fff;*/
+/*    float: left;*/
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    }
+    }
+
+
+section.category div.card div.card-container{
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    margin: 0 30 0 10px;
+        
+}
+
+
+section.category2{
+    margin-top: 35px;
+    background-color: #f4f4f4;
+    padding: 70px 40px;
+    width: 100%;
+
+}
+
+section.category2 div.content-flip{
+    width: 100%;
+    }
+    
+    section.category2 div.card-flip{
+/*    background-color: #fff;*/
+/*    float: left;*/
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;    
+    }
+}
+
+section.category2 div.card-flip div.card-container{
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    margin: 0 30 0 10px;
+        
+}
+}
